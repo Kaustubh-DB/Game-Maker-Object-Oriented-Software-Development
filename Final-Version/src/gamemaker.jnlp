@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://ec2-3-14-68-185.us-east-2.compute.amazonaws.com:8090/" href="gamemaker.jnlp">
+
+     <information>
+          <title>Game-Maker Demo</title>
+          <vendor>Team6 Week 8</vendor>
+          <homepage href="http://ec2-3-14-68-185.us-east-2.compute.amazonaws.com:8090/" />
+          <description>GameMaker where you can play multiple games</description>
+     </information>
+
+     <security>
+          <all-permissions/>
+     </security>
+
+     <resources>
+          <j2se version=j2se version="1.6.10+" href="http://java.sun.com/products/autodl/j2se"
+java-vm-args="-Djava.net.preferIPv4Stack=true" />
+          <jar href="Team2Week8.jar" />
+     </resources>
+     <extension name="javahelp" href="gamemaker.jnlp"/>
+
+     <application-desc main-class="com.gamemaker.team6.Main" />
+</jnlp>
